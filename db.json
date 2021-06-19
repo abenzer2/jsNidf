@@ -1,19 +1,360 @@
 {
-  "posts": [
+  "users": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "email": "abenezerzeleke@gmail.com",
+      "password": "$2a$10$2b6TLfsLemPvSXNpTMYYUOHHx120B2i0iKLDsBGIaTtUdy0ws9FKq",
+      "architect": true,
+      "provider": true,
+      "contractor": true,
+      "id": 1
+    },
+    {
+      "email": "abenezerzeleke9@gmail.com",
+      "password": "$2a$10$oU8wwLeUb6c5hHmY40pFLur9cm1UTdtgMFVW4tAAX9ow/VEFT.WiO",
+      "architect": true,
+      "provider": true,
+      "contractor": true,
+      "id": 2
+    },
+    {
+      "email": "yourrr@gmail.com",
+      "password": "$2a$10$xk48Hxp95MtdYtRYKuORuu1G6iO635e0q3bvHBuVpvmbxSrnLh.HW",
+      "architect": true,
+      "provider": true,
+      "contractor": true,
+      "id": 3
+    },
+    {
+      "email": "aben@g.c",
+      "password": "$2a$10$KLbUVw/Dd/nNd577cx5speoQ8A.DP/ikt5kpdPGuIP4kfTPcEZANy",
+      "architect": true,
+      "provider": true,
+      "contractor": true,
+      "id": 4
     }
   ],
-  "comments": [
+  "projects": [],
+  "categories": [],
+  "sub_categories": [],
+  "architects": [
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "gender": "Female",
+      "nationality": "Palestine, State of",
+      "professional_level": "GAR",
+      "name": "Lolita Murray",
+      "age": "456",
+      "school": "Necessitatibus velit non.",
+      "graduate_year": "371",
+      "CGPA": "70",
+      "personality_type": "Swaniawskiburgh",
+      "aptitude": "Future Functionality Executive",
+      "location": "Quod et ducimus sapiente quia.",
+      "fb_account": "South Georgia and the South Sandwich Islands",
+      "twitter_account": "New Zealand",
+      "instagram_account": "Sudan",
+      "short_description": "Cumque voluptas non atque.",
+      "user_type": "architect",
+      "user_id": 4,
+      "id": 1
     }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "contractors": [
+    {
+      "name": "Hailey Runolfsson",
+      "gender": "Male",
+      "nationality": "Korea (the Democratic People's Republic of)",
+      "age": "639",
+      "school": "Error explicabo soluta facere.",
+      "graduate_year": "645",
+      "CGPA": "108",
+      "personality_type": "West Leonieton",
+      "aptitude": "Future Research Architect",
+      "location": "Corporis voluptatem et illum ut enim et officiis minus.",
+      "fb_account": "Namibia",
+      "twitter_account": "Heard Island and McDonald Islands",
+      "instagram_account": "Ghana",
+      "email": "your.email+fakedata55486@gmail.com",
+      "website": "http://emerald.org",
+      "short_description": "Cumque minus ipsa asperiores suscipit aut et incidunt.",
+      "contractor_type": "individual",
+      "user_id": 4,
+      "id": 1
+    }
+  ],
+  "providers": [
+    {
+      "gender": "Female",
+      "nationality": "American Samoa",
+      "name": "Gloria King",
+      "age": "596",
+      "location": "Consectetur in eligendi et in sed voluptates et.",
+      "website": "http://liana.com",
+      "fb_account": "Nauru",
+      "twitter_account": "Estonia",
+      "instagram_account": "Morocco",
+      "short_description": "Et vel aperiam hic.",
+      "provider_type": "individual",
+      "user_id": 4,
+      "id": 1
+    }
+  ],
+  "architectDesigns": [
+    {
+      "id": 1,
+      "title": "Residential",
+      "user_id": 1
+    },
+    {
+      "title": "sdf",
+      "user_id": 1,
+      "id": 2
+    },
+    {
+      "title": "HTML 5 Video",
+      "user_id": 1,
+      "id": 3
+    },
+    {
+      "title": "Senior Applications Administrator",
+      "description": "Suscipit ut voluptas voluptatibus illo autem laudantium.",
+      "architect_id": 1,
+      "user_id": 4,
+      "id": 4
+    },
+    {
+      "title": "Customer Factors Engineer",
+      "description": "Rerum qui corrupti hic.",
+      "architect_id": 1,
+      "user_id": 4,
+      "id": 5
+    },
+    {
+      "title": "Investor Response Architect",
+      "description": "Velit iure dolorem.",
+      "architect_id": 1,
+      "user_id": 4,
+      "id": 6
+    },
+    {
+      "title": "Legacy Mobility Planner",
+      "description": "Voluptas fuga sit veritatis cumque dolore veniam.",
+      "architect_id": 1,
+      "user_id": 4,
+      "id": 7
+    },
+    {
+      "title": "Corporate Creative Strategist",
+      "description": "Maxime magnam pariatur.",
+      "architect_id": 1,
+      "user_id": 4,
+      "id": 8
+    },
+    {
+      "title": "Internal Creative Executive",
+      "description": "Aspernatur qui et nihil in soluta.",
+      "architect_id": 1,
+      "user_id": 4,
+      "id": 9
+    }
+  ],
+  "providerMaterials": [
+    {
+      "name": "Neil Altenwerth",
+      "category": "Guinea",
+      "price": "270",
+      "location": "Labore rerum excepturi accusantium consequatur nobis.",
+      "description": "Quia consequuntur cum sit ut mollitia aliquid id.",
+      "rating": 3,
+      "number_of_ratings": 4657,
+      "answered_question_no": 564,
+      "user_type": "material",
+      "aboutItem": [
+        "Share videos, photos, and music from your Apple device using AirPlay.",
+        "Wireless that goes the distance: Basement rec room? Backyard movie night? Bring them on. The long-range wireless receiver gives you extended range and a stronger signal for smooth streaming even in rooms farther from your router",
+        "Brilliant picture quality: Experience your favorite shows with stunning detail and clarity—whether you’re streaming in HD, 4K, or HDR, you’ll enjoy picture quality that’s optimized for your TV with sharp resolution and vivid color",
+        "Tons of power, tons of fun: Snappy and responsive, you’ll stream your favorites with ease—from movies and series on Apple TV, Prime Video, Netflix, to cable alternatives like Sling, enjoy the most talked-about TV across thousands of channels",
+        "No more juggling remotes: Power up your TV, adjust the volume, mute, and control your streaming all with 1 remote—use your voice to quickly search across channels, turn captions on, and more in a touch",
+        "Setup is a cinch: Plug it in, connect to the internet, and start streaming—it’s that simple",
+        "Private listening on mobile: Use the free Roku mobile app to pump up the volume on your shows without disturbing the house",
+        "Endless entertainment: Stream what you love, including free TV, live news, sports, and more; Never miss the most talked-about events, award-winning shows, latest blockbuster hits, and more—It’s easy to stream what you love and cut back on cable bills"
+      ],
+      "provider_id": 1,
+      "user_id": 4,
+      "id": 1
+    },
+    {
+      "name": "Audreanne Pollich",
+      "category": "Niue",
+      "price": "549",
+      "location": "Accusantium et nisi et cupiditate velit sit et.",
+      "description": "Quas nostrum et non nam sit alias.",
+      "rating": 3,
+      "number_of_ratings": 4657,
+      "answered_question_no": 564,
+      "user_type": "material",
+      "aboutItem": [
+        "Share videos, photos, and music from your Apple device using AirPlay.",
+        "Wireless that goes the distance: Basement rec room? Backyard movie night? Bring them on. The long-range wireless receiver gives you extended range and a stronger signal for smooth streaming even in rooms farther from your router",
+        "Brilliant picture quality: Experience your favorite shows with stunning detail and clarity—whether you’re streaming in HD, 4K, or HDR, you’ll enjoy picture quality that’s optimized for your TV with sharp resolution and vivid color",
+        "Tons of power, tons of fun: Snappy and responsive, you’ll stream your favorites with ease—from movies and series on Apple TV, Prime Video, Netflix, to cable alternatives like Sling, enjoy the most talked-about TV across thousands of channels",
+        "No more juggling remotes: Power up your TV, adjust the volume, mute, and control your streaming all with 1 remote—use your voice to quickly search across channels, turn captions on, and more in a touch",
+        "Setup is a cinch: Plug it in, connect to the internet, and start streaming—it’s that simple",
+        "Private listening on mobile: Use the free Roku mobile app to pump up the volume on your shows without disturbing the house",
+        "Endless entertainment: Stream what you love, including free TV, live news, sports, and more; Never miss the most talked-about events, award-winning shows, latest blockbuster hits, and more—It’s easy to stream what you love and cut back on cable bills"
+      ],
+      "provider_id": 1,
+      "user_id": 4,
+      "id": 2
+    },
+    {
+      "name": "Ivah Hoeger",
+      "category": "Burundi",
+      "price": "65",
+      "location": "Non iusto et inventore architecto qui et incidunt.",
+      "description": "Iste distinctio animi sit velit.",
+      "rating": 3,
+      "number_of_ratings": 4657,
+      "answered_question_no": 564,
+      "user_type": "material",
+      "aboutItem": [
+        "Share videos, photos, and music from your Apple device using AirPlay.",
+        "Wireless that goes the distance: Basement rec room? Backyard movie night? Bring them on. The long-range wireless receiver gives you extended range and a stronger signal for smooth streaming even in rooms farther from your router",
+        "Brilliant picture quality: Experience your favorite shows with stunning detail and clarity—whether you’re streaming in HD, 4K, or HDR, you’ll enjoy picture quality that’s optimized for your TV with sharp resolution and vivid color",
+        "Tons of power, tons of fun: Snappy and responsive, you’ll stream your favorites with ease—from movies and series on Apple TV, Prime Video, Netflix, to cable alternatives like Sling, enjoy the most talked-about TV across thousands of channels",
+        "No more juggling remotes: Power up your TV, adjust the volume, mute, and control your streaming all with 1 remote—use your voice to quickly search across channels, turn captions on, and more in a touch",
+        "Setup is a cinch: Plug it in, connect to the internet, and start streaming—it’s that simple",
+        "Private listening on mobile: Use the free Roku mobile app to pump up the volume on your shows without disturbing the house",
+        "Endless entertainment: Stream what you love, including free TV, live news, sports, and more; Never miss the most talked-about events, award-winning shows, latest blockbuster hits, and more—It’s easy to stream what you love and cut back on cable bills"
+      ],
+      "provider_id": 1,
+      "user_id": 4,
+      "id": 3
+    },
+    {
+      "name": "Muriel Gottlieb",
+      "category": "Haiti",
+      "price": "590",
+      "location": "Quam qui qui corrupti magnam odio ducimus voluptas sunt accusantium.",
+      "description": "Error quis voluptatem itaque eum fuga.",
+      "rating": 3,
+      "number_of_ratings": 4657,
+      "answered_question_no": 564,
+      "user_type": "material",
+      "aboutItem": [
+        "Share videos, photos, and music from your Apple device using AirPlay.",
+        "Wireless that goes the distance: Basement rec room? Backyard movie night? Bring them on. The long-range wireless receiver gives you extended range and a stronger signal for smooth streaming even in rooms farther from your router",
+        "Brilliant picture quality: Experience your favorite shows with stunning detail and clarity—whether you’re streaming in HD, 4K, or HDR, you’ll enjoy picture quality that’s optimized for your TV with sharp resolution and vivid color",
+        "Tons of power, tons of fun: Snappy and responsive, you’ll stream your favorites with ease—from movies and series on Apple TV, Prime Video, Netflix, to cable alternatives like Sling, enjoy the most talked-about TV across thousands of channels",
+        "No more juggling remotes: Power up your TV, adjust the volume, mute, and control your streaming all with 1 remote—use your voice to quickly search across channels, turn captions on, and more in a touch",
+        "Setup is a cinch: Plug it in, connect to the internet, and start streaming—it’s that simple",
+        "Private listening on mobile: Use the free Roku mobile app to pump up the volume on your shows without disturbing the house",
+        "Endless entertainment: Stream what you love, including free TV, live news, sports, and more; Never miss the most talked-about events, award-winning shows, latest blockbuster hits, and more—It’s easy to stream what you love and cut back on cable bills"
+      ],
+      "provider_id": 1,
+      "user_id": 4,
+      "id": 4
+    },
+    {
+      "name": "Hassan Gleason",
+      "category": "Denmark",
+      "price": "658",
+      "location": "Illo reiciendis exercitationem cum cumque aut illo dolores illum aut.",
+      "description": "Eos laborum qui nisi recusandae corporis.",
+      "rating": 3,
+      "number_of_ratings": 4657,
+      "answered_question_no": 564,
+      "user_type": "material",
+      "aboutItem": [
+        "Share videos, photos, and music from your Apple device using AirPlay.",
+        "Wireless that goes the distance: Basement rec room? Backyard movie night? Bring them on. The long-range wireless receiver gives you extended range and a stronger signal for smooth streaming even in rooms farther from your router",
+        "Brilliant picture quality: Experience your favorite shows with stunning detail and clarity—whether you’re streaming in HD, 4K, or HDR, you’ll enjoy picture quality that’s optimized for your TV with sharp resolution and vivid color",
+        "Tons of power, tons of fun: Snappy and responsive, you’ll stream your favorites with ease—from movies and series on Apple TV, Prime Video, Netflix, to cable alternatives like Sling, enjoy the most talked-about TV across thousands of channels",
+        "No more juggling remotes: Power up your TV, adjust the volume, mute, and control your streaming all with 1 remote—use your voice to quickly search across channels, turn captions on, and more in a touch",
+        "Setup is a cinch: Plug it in, connect to the internet, and start streaming—it’s that simple",
+        "Private listening on mobile: Use the free Roku mobile app to pump up the volume on your shows without disturbing the house",
+        "Endless entertainment: Stream what you love, including free TV, live news, sports, and more; Never miss the most talked-about events, award-winning shows, latest blockbuster hits, and more—It’s easy to stream what you love and cut back on cable bills"
+      ],
+      "provider_id": 1,
+      "user_id": 4,
+      "id": 5
+    },
+    {
+      "name": "Olaf Gibson",
+      "category": "Eritrea",
+      "price": "211",
+      "location": "Consequatur debitis rerum eius aut rerum excepturi dolorem.",
+      "description": "Est laudantium magni.",
+      "rating": 3,
+      "number_of_ratings": 4657,
+      "answered_question_no": 564,
+      "user_type": "material",
+      "aboutItem": [
+        "Share videos, photos, and music from your Apple device using AirPlay.",
+        "Wireless that goes the distance: Basement rec room? Backyard movie night? Bring them on. The long-range wireless receiver gives you extended range and a stronger signal for smooth streaming even in rooms farther from your router",
+        "Brilliant picture quality: Experience your favorite shows with stunning detail and clarity—whether you’re streaming in HD, 4K, or HDR, you’ll enjoy picture quality that’s optimized for your TV with sharp resolution and vivid color",
+        "Tons of power, tons of fun: Snappy and responsive, you’ll stream your favorites with ease—from movies and series on Apple TV, Prime Video, Netflix, to cable alternatives like Sling, enjoy the most talked-about TV across thousands of channels",
+        "No more juggling remotes: Power up your TV, adjust the volume, mute, and control your streaming all with 1 remote—use your voice to quickly search across channels, turn captions on, and more in a touch",
+        "Setup is a cinch: Plug it in, connect to the internet, and start streaming—it’s that simple",
+        "Private listening on mobile: Use the free Roku mobile app to pump up the volume on your shows without disturbing the house",
+        "Endless entertainment: Stream what you love, including free TV, live news, sports, and more; Never miss the most talked-about events, award-winning shows, latest blockbuster hits, and more—It’s easy to stream what you love and cut back on cable bills"
+      ],
+      "provider_id": 1,
+      "user_id": 4,
+      "id": 6
+    }
+  ],
+  "contractorDesigns": [
+    {
+      "title": "Legacy Paradigm Manager",
+      "description": "Esse eum eius.",
+      "completion": "Under_construction",
+      "preference": "public",
+      "budgetValue": [
+        17,
+        95
+      ],
+      "contractor_id": 1,
+      "user_id": 4,
+      "id": 1
+    },
+    {
+      "title": "Dynamic Web Orchestrator",
+      "description": "Et eveniet quos explicabo sed ratione distinctio distinctio assumenda qui.",
+      "completion": "Under_construction",
+      "preference": "public",
+      "budgetValue": [
+        17,
+        95
+      ],
+      "contractor_id": 1,
+      "user_id": 4,
+      "id": 2
+    },
+    {
+      "title": "International Markets Specialist",
+      "description": "Non exercitationem minima excepturi dolor qui.",
+      "completion": "Under_construction",
+      "preference": "public",
+      "budgetValue": [
+        17,
+        95
+      ],
+      "contractor_id": 1,
+      "user_id": 4,
+      "id": 3
+    },
+    {
+      "title": "Global Data Architect",
+      "description": "Sed impedit dolorum similique voluptas quis fuga et.",
+      "completion": "Under_construction",
+      "preference": "public",
+      "budgetValue": [
+        17,
+        95
+      ],
+      "contractor_id": 1,
+      "user_id": 4,
+      "id": 4
+    }
+  ]
 }
