@@ -1,0 +1,357 @@
+{
+  "users": [
+    {
+      "email": "abenezerzeleke@gmail.com",
+      "password": "$2a$10$2b6TLfsLemPvSXNpTMYYUOHHx120B2i0iKLDsBGIaTtUdy0ws9FKq",
+      "architect": true,
+      "provider": true,
+      "contractor": true,
+      "id": 1
+    },
+    {
+      "email": "abenezerzeleke9@gmail.com",
+      "password": "$2a$10$oU8wwLeUb6c5hHmY40pFLur9cm1UTdtgMFVW4tAAX9ow/VEFT.WiO",
+      "architect": true,
+      "provider": true,
+      "contractor": true,
+      "id": 2
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "body": "some project"
+    },
+    {
+      "body": "aeidsotyrb@g.c",
+      "password": "1235678",
+      "id": 2
+    },
+    {
+      "archCategory": true,
+      "id": 3
+    },
+    {
+      "archText": "sd",
+      "fistName": "sd",
+      "lastName": "sd",
+      "sex": "female",
+      "favoriteColor": "00ff00",
+      "archCategory": true,
+      "id": 4
+    },
+    {
+      "lastName": "sdf",
+      "id": 5
+    },
+    {
+      "lastName": "sdf",
+      "id": 6
+    },
+    {
+      "lastName": "sdf",
+      "id": 7
+    },
+    {
+      "id": 8
+    },
+    {
+      "id": 9
+    },
+    {
+      "archText": "1",
+      "fistName": "w",
+      "lastName": "ew",
+      "sex": "other",
+      "favoriteColor": "ff0000",
+      "id": 10
+    },
+    {
+      "archCategory": true,
+      "archText": "sd",
+      "fistName": "sd",
+      "lastName": "dsfs",
+      "sex": "female",
+      "id": 11
+    },
+    {
+      "archCategory": true,
+      "archText": "sdfs",
+      "lastName": "sdf",
+      "fistName": "sfdf",
+      "id": 12
+    },
+    {
+      "archText": "sfas",
+      "fistName": "sdf",
+      "lastName": "sdfa",
+      "sex": "other",
+      "id": 13
+    },
+    {
+      "archText": "sdf",
+      "fistName": "sd",
+      "lastName": "sdff",
+      "id": 14
+    },
+    {
+      "archText": "sddfsa",
+      "fistName": "saddfsa",
+      "lastName": "sadfasfs",
+      "sex": "other",
+      "id": 15
+    },
+    {
+      "archText": "sf",
+      "fistName": "sdf",
+      "lastName": "sf",
+      "id": 16
+    },
+    {
+      "archText": "sdsdfsdf",
+      "id": 17
+    },
+    {
+      "id": 18
+    },
+    {
+      "id": 19
+    },
+    {
+      "id": 20
+    },
+    {
+      "id": 21
+    },
+    {
+      "id": 22
+    },
+    {
+      "id": 23
+    },
+    {
+      "id": 24
+    },
+    {
+      "id": 25
+    },
+    {
+      "id": 26
+    },
+    {
+      "fistName": "vsfddfgas",
+      "id": 27
+    },
+    {
+      "archCategory": false,
+      "archGraduating": false,
+      "archIntern": false,
+      "archPracticing": true,
+      "archProfessional": true,
+      "sex": "other",
+      "id": 28
+    },
+    {
+      "sex": "male",
+      "id": 29
+    },
+    {
+      "sex": "female",
+      "fistName": "ghf",
+      "id": 30
+    },
+    {
+      "id": 31
+    },
+    {
+      "id": 32
+    },
+    {
+      "id": 33
+    },
+    {
+      "archCategory": true,
+      "archGraduating": false,
+      "archIntern": true,
+      "sex": "male",
+      "id": 34
+    },
+    {
+      "id": 35
+    },
+    {
+      "archCategory": true,
+      "archGraduating": true,
+      "archIntern": true,
+      "archPracticing": true,
+      "sex": "female",
+      "id": 36
+    },
+    {
+      "id": 37
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Architect"
+    },
+    {
+      "name": "Provider",
+      "id": 2
+    },
+    {
+      "name": "Contractor",
+      "id": 3
+    }
+  ],
+  "sub_categories": [
+    {
+      "id": 1,
+      "name": "Architect Sub",
+      "category_id": 1
+    },
+    {
+      "id": 2,
+      "name": "Architect sub",
+      "category_id": 1
+    },
+    {
+      "id": 3,
+      "name": "Provider Sub",
+      "category_id": 1
+    },
+    {
+      "id": 4,
+      "name": "Provider Sub",
+      "category_id": 1
+    },
+    {
+      "id": 5,
+      "name": "Contractor Sub",
+      "category_id": 1
+    },
+    {
+      "id": 6,
+      "name": "Contractor Sub",
+      "category_id": 1
+    },
+    {
+      "id": 7,
+      "name": "Contractor Sub",
+      "category_id": 1
+    }
+  ],
+  "architects": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "name": "Abenezer Zeleke",
+      "CGPA": "3.45",
+      "age": "54",
+      "aptitude": "1700",
+      "gender": "Male",
+      "graduate_year": "2020",
+      "location": "Addis Ababa",
+      "nationality": "American Samoa",
+      "personality_type": "Architect",
+      "professional_level": "GAR",
+      "school": "Addis Ababa University",
+      "fb_account": "",
+      "twitter_account": "",
+      "instagram_account": "",
+      "short_description": "sfas"
+    }
+  ],
+  "contractors": [
+    {
+      "id": 1,
+      "name": "Architect Sub",
+      "category_id": 1
+    },
+    {
+      "id": 2,
+      "name": "Architect sub",
+      "category_id": 1
+    },
+    {
+      "id": 3,
+      "name": "Provider Sub",
+      "category_id": 1
+    },
+    {
+      "id": 4,
+      "name": "Provider Sub",
+      "category_id": 1
+    },
+    {
+      "id": 5,
+      "name": "Contractor Sub",
+      "category_id": 1
+    },
+    {
+      "id": 5,
+      "name": "Contractor Sub",
+      "category_id": 1
+    },
+    {
+      "id": 6,
+      "name": "Contractor Sub",
+      "category_id": 1
+    }
+  ],
+  "providers": [
+    {
+      "id": 1,
+      "name": "Adam P",
+      "category_id": 1
+    },
+    {
+      "id": 2,
+      "name": "Dagim sub",
+      "category_id": 1
+    },
+    {
+      "id": 3,
+      "name": "Amen Sub",
+      "category_id": 1
+    },
+    {
+      "id": 4,
+      "name": "Eshetu Sub",
+      "category_id": 1
+    },
+    {
+      "id": 5,
+      "name": "Markos",
+      "category_id": 1
+    },
+    {
+      "id": 6,
+      "name": "Contractor Sub",
+      "category_id": 1
+    },
+    {
+      "id": 7,
+      "name": "Contractor Sub",
+      "category_id": 1
+    }
+  ],
+  "architectDesigns": [
+    {
+      "id": 1,
+      "title": "Residential",
+      "user_id": 1
+    },
+    {
+      "title": "sdf",
+      "user_id": 1,
+      "id": 2
+    },
+    {
+      "title": "HTML 5 Video",
+      "user_id": 1,
+      "id": 3
+    }
+  ]
+}
